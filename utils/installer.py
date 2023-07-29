@@ -12,7 +12,7 @@ SUPPORTS_HTTPS = hasattr(httplib, 'HTTPS')
 
 modPath = bs.getEnvironment()['userScriptsDirectory'] + "/"
 BRANCH = "master"
-USER_REPO = "Mrmaxmeier/BombSquad-Community-Mod-Manager"
+USER_REPO = "aryan02420/BombSquad-Community-Mod-Manager"
 ENTRY_MOD = "modManager"
 
 
