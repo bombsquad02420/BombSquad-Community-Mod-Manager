@@ -575,25 +575,25 @@
             "author": "Mrmaxmeier",
             "category": "utilities",
             "changelog": [
-                "Install mods from a downloaded repo zip when one is in the mods folderOld BombSquad builds ship a Python without ssl, and every host thatserves the mod files now redirects plain http to https. If a GitHub\"Download ZIP\" of this repo sits in the mods folder, the installer andthe mod manager read index.json and mods/ from it instead of going tothe network.",
-                "Serve the mod manager entirely from the bombsquad02420 forkPoint the mod manager, installer, index generator and README atbombsquad02420/BombSquad-Community-Mod-Manager instead of the archivedMrmaxmeier repo. Drop the dead rawgit.com mirrors, fetch mods fromraw.githubusercontent.com, and send a User-Agent on plain GET requestsso the raw.githack.com http fallback stops returning 403. The installerno longer writes an empty file when a download fails."
+                "Read the local zip without the zipfile moduleBombSquad 1.4.155's embedded Python ships a trimmed pylib with nozipfile.py, so importing it broke the installer. zlib and struct arebuilt into the binary, so parse the zip's central directory directly.",
+                "Install mods from a downloaded repo zip when one is in the mods folderOld BombSquad builds ship a Python without ssl, and every host thatserves the mod files now redirects plain http to https. If a GitHub\"Download ZIP\" of this repo sits in the mods folder, the installer andthe mod manager read index.json and mods/ from it instead of going tothe network."
             ],
-            "commit_sha": "d083d5a4bc5198e15f1be3672940cd736da9d5f2",
+            "commit_sha": "2d810094e8eb63e1dae28efab1bf653af3f0bc31",
             "filename": "modManager.py",
-            "md5": "c2bd5bd6b60e05cee335d385adc2ccab",
+            "md5": "cc56e9c438a169ae3c609ba475e7acdc",
             "name": "Mod Manager (this thingy)",
             "old_md5s": [
+                "c2bd5bd6b60e05cee335d385adc2ccab",
                 "23a50403fef21069dae2d4e4fee534c7",
                 "536b069e5b60bbeee052b03464991ce9",
                 "79fad6241b448f45be7a97b7c5aa3dd9",
-                "95137096a9c415267e4bfb4ee75c9b73",
-                "5c0fac4ce24659ae410a56faced81d25"
+                "95137096a9c415267e4bfb4ee75c9b73"
             ],
             "requires": [
                 "ui_wrappers",
                 "settings_patcher"
             ],
-            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/d083d5a4bc5198e15f1be3672940cd736da9d5f2/mods/modManager.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/2d810094e8eb63e1dae28efab1bf653af3f0bc31/mods/modManager.py"
         },
         "puckDeathmatch": {
             "author": "Mrmaxmeier",
