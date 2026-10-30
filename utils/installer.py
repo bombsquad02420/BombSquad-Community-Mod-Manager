@@ -12,16 +12,15 @@ SUPPORTS_HTTPS = hasattr(httplib, 'HTTPS')
 
 modPath = bs.getEnvironment()['userScriptsDirectory'] + "/"
 BRANCH = "master"
-USER_REPO = "aryan02420/BombSquad-Community-Mod-Manager"
+USER_REPO = "bombsquad02420/BombSquad-Community-Mod-Manager"
 ENTRY_MOD = "modManager"
 
 
 def index_url():
     if SUPPORTS_HTTPS:
         yield "https://raw.githubusercontent.com/{}/{}/index.json".format(USER_REPO, BRANCH)
-        yield "https://rawgit.com/{}/{}/index.json".format(USER_REPO, BRANCH)
+    # plain http mirror for old builds whose ssl can't talk to github
     yield "http://raw.githack.com/{}/{}/index.json".format(USER_REPO, BRANCH)
-    yield "http://rawgit.com/{}/{}/index.json".format(USER_REPO, BRANCH)
 
 
 def mod_url(data):
@@ -29,12 +28,8 @@ def mod_url(data):
         commit_hexsha = data["commit_sha"]
         filename = data["filename"]
         if SUPPORTS_HTTPS:
-            yield "https://cdn.rawgit.com/{}/{}/mods/{}".format(USER_REPO, commit_hexsha, filename)
-        yield "http://rawcdn.githack.com/{}/{}/mods/{}".format(USER_REPO, commit_hexsha, filename)
-    if "url" in data:
-        if SUPPORTS_HTTPS:
-            yield data["url"]
-        yield data["url"].replace("https", "http")
+            yield "https://raw.githubusercontent.com/{}/{}/mods/{}".format(USER_REPO, commit_hexsha, filename)
+        yield "http://raw.githack.com/{}/{}/mods/{}".format(USER_REPO, commit_hexsha, filename)
 
 
 def try_fetch_cb(generator, callback):
@@ -71,7 +66,9 @@ class SimpleGetThread(threading.Thread):
     def run(self):
         try:
             bsInternal._setThreadName("SimpleGetThread")
-            response = urllib2.urlopen(self._url)
+            # githack rejects the default Python-urllib user agent with a 403
+            env = {'User-Agent': bs.getEnvironment()['userAgentString']}
+            response = urllib2.urlopen(urllib2.Request(self._url, None, env))
             bs.callInGameThread(bs.Call(self._runCallback, response.read()))
         except:
             bs.printException()
@@ -106,6 +103,7 @@ def install(data, mod):
     def f(data):
         if not data:
             bs.screenMessage("failed to download mod '{}'".format(filename))
+            return
         print("writing", filename)
         with open(modPath + filename, "w") as f:
             f.write(data)

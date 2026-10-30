@@ -25,7 +25,7 @@ mods = {}
 
 current_commit = gitRepo.rev_parse("HEAD")
 
-url_base = "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/"
+url_base = "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/"
 modurl = url_base + current_commit.hexsha + "/mods/"
 
 old_data = None

@@ -35,7 +35,7 @@ def uuid4():
 PROTOCOL_VERSION = 1.1
 STAT_SERVER_URI = None # "http://bsmm.thuermchen.com"
 SUPPORTS_HTTPS = hasattr(httplib, 'HTTPS')
-USER_REPO = "Mrmaxmeier/BombSquad-Community-Mod-Manager"
+USER_REPO = "bombsquad02420/BombSquad-Community-Mod-Manager"
 
 _supports_auto_reloading = True
 _auto_reloader_type = "patching"
@@ -70,9 +70,8 @@ def index_url(branch=None):
         branch = config.get("branch", "master")
     if SUPPORTS_HTTPS:
         yield "https://raw.githubusercontent.com/{}/{}/index.json".format(USER_REPO, branch)
-        yield "https://rawgit.com/{}/{}/index.json".format(USER_REPO, branch)
+    # plain http mirror for old builds whose ssl can't talk to github
     yield "http://raw.githack.com/{}/{}/index.json".format(USER_REPO, branch)
-    yield "http://rawgit.com/{}/{}/index.json".format(USER_REPO, branch)
 
 
 def mod_url(data):
@@ -80,12 +79,8 @@ def mod_url(data):
         commit_hexsha = data["commit_sha"]
         filename = data["filename"]
         if SUPPORTS_HTTPS:
-            yield "https://cdn.rawgit.com/{}/{}/mods/{}".format(USER_REPO, commit_hexsha, filename)
-        yield "http://rawcdn.githack.com/{}/{}/mods/{}".format(USER_REPO, commit_hexsha, filename)
-    if "url" in data:
-        if SUPPORTS_HTTPS:
-            yield data["url"]
-        yield data["url"].replace("https", "http")
+            yield "https://raw.githubusercontent.com/{}/{}/mods/{}".format(USER_REPO, commit_hexsha, filename)
+        yield "http://raw.githack.com/{}/{}/mods/{}".format(USER_REPO, commit_hexsha, filename)
 
 
 def try_fetch_cb(generator, callback, **kwargs):
@@ -293,6 +288,7 @@ class ModManager_ServerCallThread(threading.Thread):
     def run(self):
         try:
             bsInternal._setThreadName("ModManager_ServerCallThread")  # FIXME: using protected apis
+            # githack rejects the default Python-urllib user agent with a 403
             env = {'User-Agent': bs.getEnvironment()['userAgentString']}
             if self._requestType != "get" or self._data:
                 if self._requestType == 'get':
@@ -306,7 +302,7 @@ class ModManager_ServerCallThread(threading.Thread):
                     raise RuntimeError("Invalid requestType: " + self._requestType)
                 response = urllib2.urlopen(request)
             else:
-                response = urllib2.urlopen(self._request)
+                response = urllib2.urlopen(urllib2.Request(self._request, None, env))
 
             if self._eval_data:
                 responseData = json.loads(response.read())

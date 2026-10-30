@@ -6,11 +6,11 @@ This is a mod for the game <a href="http://www.froemling.net/apps/bombsquad">Bom
 
 It's build using the modding api so it can be used on all platforms and should be compatible with all recent versions of BombSquad.
 
-A list of all mods can be viewed [here](http://mrmaxmeier.github.io/BombSquad-Community-Mod-Manager), you can also filter by category ([all minigames](http://mrmaxmeier.github.io/BombSquad-Community-Mod-Manager/#/category/minigames)) or view specific mods ([mod manager](http://mrmaxmeier.github.io/BombSquad-Community-Mod-Manager/#/mod/modManager)).
+A list of all mods can be found in [index.json](https://github.com/bombsquad02420/BombSquad-Community-Mod-Manager/blob/master/index.json).
 
 <h2>Installation</h2>
 
-Put <a href="https://raw.githubusercontent.com/Mrmaxmeier/BombSquad-ModManager-and-Mods/master/utils/installer.py">installer.py</a> in your mods folder. This file will download and install the Mod-Manager and its dependencies.
+Put <a href="https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/master/utils/installer.py">installer.py</a> in your mods folder. This file will download and install the Mod-Manager and its dependencies.
 You can find your mods folder in Settings > Advanced > Show Mods Folder.
 
 <h6>Note:</h6>
@@ -28,25 +28,25 @@ On Android M or higher you'll need to give BombSquad access to the storage. You 
   <tr>
     <td>OSX</td>
     <td>
-      <pre>cd ~/Library/Containers/net.froemling.bombsquad/Data/Library/Application\ Support/BombSquad/mods && curl -O https://raw.githubusercontent.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/master/utils/installer.py</pre>
+      <pre>cd ~/Library/Containers/net.froemling.bombsquad/Data/Library/Application\ Support/BombSquad/mods && curl -O https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/master/utils/installer.py</pre>
     </td>
   </tr>
   <tr>
     <td>Linux (wget)</td>
     <td>
-      <pre>wget -P ~/.bombsquad/mods https://raw.githubusercontent.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/master/utils/installer.py</pre>
+      <pre>wget -P ~/.bombsquad/mods https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/master/utils/installer.py</pre>
     </td>
   </tr>
   <tr>
     <td>Linux (curl)</td>
     <td>
-      <pre>cd ~/.bombsquad/mods && curl -O https://raw.githubusercontent.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/master/utils/installer.py</pre>  
+      <pre>cd ~/.bombsquad/mods && curl -O https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/master/utils/installer.py</pre>  
     </td>
   </tr>
   <tr>
     <td>Windows (PowerShell)</td>
     <td>
-      <pre>wget https://raw.githubusercontent.com/Mrmaxmeier/BombSquad-ModManager-and-Mods/master/utils/installer.py -OutFile $env:APPDATA/BombSquad/mods/installer.py</pre>
+      <pre>wget https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/master/utils/installer.py -OutFile $env:APPDATA/BombSquad/mods/installer.py</pre>
     </td>
 </table>
 
@@ -85,7 +85,7 @@ There is a settings button in the mod manager window.
 
 | Setting | More infos |
 | ---------- | ---------- |
-| Branch     |  A List of all available branches can be found [here](https://api.github.com/repos/Mrmaxmeier/BombSquad-Community-Mod-Manager/branches)   |
+| Branch     |  A List of all available branches can be found [here](https://api.github.com/repos/bombsquad02420/BombSquad-Community-Mod-Manager/branches)   |
 | Auto check for updates | This will check for updates while BombSquad is starting |
 | Auto-update old mods | This will update mods with versions that are known to be old. <br \>Mods you are developing won't get updated by this. |
 
