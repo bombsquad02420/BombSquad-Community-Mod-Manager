@@ -8,7 +8,7 @@
             "filename": "AroundTheWorld.py",
             "md5": "58bbe46603794fb20e018cf015387674",
             "old_md5s": [],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/0673756fe8376878d81f0a6d1e4c163c6750c9cb/mods/AroundTheWorld.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/0673756fe8376878d81f0a6d1e4c163c6750c9cb/mods/AroundTheWorld.py"
         },
         "BackToYou": {
             "author": "joshville79",
@@ -24,7 +24,7 @@
             "old_md5s": [
                 "ec65e09ff91f1535252718d3580ac927"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/f0771dc63724a5b92c95a52d6ee74d4cab35eaf0/mods/BackToYou.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/f0771dc63724a5b92c95a52d6ee74d4cab35eaf0/mods/BackToYou.py"
         },
         "Basketball": {
             "author": "MattZ45986",
@@ -37,7 +37,7 @@
             "md5": "5b77f61eae97b0c379eff4b6ed0b242c",
             "name": "Basketball",
             "old_md5s": [],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/de5422b29a3e8b7c2c5e63539698d3ecc8e8c0c0/mods/Basketball.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/de5422b29a3e8b7c2c5e63539698d3ecc8e8c0c0/mods/Basketball.py"
         },
         "BuddyBunny": {
             "author": "joshville79",
@@ -53,7 +53,7 @@
             "old_md5s": [
                 "2e1bd9ed5b9dab8c2fb4eb21a88689ec"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/a483c74a4b6a9c540ae58904bce5164dcfd5f4d4/mods/BuddyBunny.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/a483c74a4b6a9c540ae58904bce5164dcfd5f4d4/mods/BuddyBunny.py"
         },
         "Collector": {
             "author": "TheMikirog",
@@ -72,7 +72,7 @@
                 "571ec87186cd1b74a0ba196b2a263648",
                 "9db6ae29f084aaa7afdd81953b6f5937"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/0ebd80ae04e67629b2cc1be3e76fa96b68e2a42f/mods/Collector.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/0ebd80ae04e67629b2cc1be3e76fa96b68e2a42f/mods/Collector.py"
         },
         "FillErUp": {
             "author": "joshville79",
@@ -85,7 +85,7 @@
             "md5": "e0f7e8c5b259c090269d269eca139106",
             "name": "Fill 'Er Up",
             "old_md5s": [],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/f0771dc63724a5b92c95a52d6ee74d4cab35eaf0/mods/FillErUp.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/f0771dc63724a5b92c95a52d6ee74d4cab35eaf0/mods/FillErUp.py"
         },
         "FlagDay": {
             "changelog": [
@@ -95,7 +95,7 @@
             "filename": "FlagDay.py",
             "md5": "0a15acdc7ff94ac6e3dff79b088338e0",
             "old_md5s": [],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/55a13e781e5aca80752f59c5bb7f5ccb2a7b4042/mods/FlagDay.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/55a13e781e5aca80752f59c5bb7f5ccb2a7b4042/mods/FlagDay.py"
         },
         "GravityFalls": {
             "changelog": [
@@ -105,7 +105,7 @@
             "filename": "GravityFalls.py",
             "md5": "a7d7f9c4e898e18a758979bd7430b2b7",
             "old_md5s": [],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/729dc2dc599b17a889d1ebfcfef02bc52a0b6cef/mods/GravityFalls.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/729dc2dc599b17a889d1ebfcfef02bc52a0b6cef/mods/GravityFalls.py"
         },
         "Greed": {
             "author": "joshville79",
@@ -121,7 +121,7 @@
             "old_md5s": [
                 "716fc4ab7c3c5f2562540dd2aa4b9531"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/f0771dc63724a5b92c95a52d6ee74d4cab35eaf0/mods/Greed.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/f0771dc63724a5b92c95a52d6ee74d4cab35eaf0/mods/Greed.py"
         },
         "GuessTheBomb": {
             "author": "Paolo Valerdi",
@@ -137,7 +137,7 @@
             "old_md5s": [
                 "069221cf6a656d3efe1ea69dabc12e8f"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/a483c74a4b6a9c540ae58904bce5164dcfd5f4d4/mods/GuessTheBomb.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/a483c74a4b6a9c540ae58904bce5164dcfd5f4d4/mods/GuessTheBomb.py"
         },
         "HazardousCargo": {
             "author": "joshville79",
@@ -153,7 +153,7 @@
             "old_md5s": [
                 "266a2b0a26d9a8c19fb8ab1afcaead83"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/a483c74a4b6a9c540ae58904bce5164dcfd5f4d4/mods/HazardousCargo.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/a483c74a4b6a9c540ae58904bce5164dcfd5f4d4/mods/HazardousCargo.py"
         },
         "Infection": {
             "author": "joshville79",
@@ -169,7 +169,7 @@
             "old_md5s": [
                 "a72d024cee252ae53039f2ad0936b198"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/a483c74a4b6a9c540ae58904bce5164dcfd5f4d4/mods/Infection.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/a483c74a4b6a9c540ae58904bce5164dcfd5f4d4/mods/Infection.py"
         },
         "JumpingContest": {
             "changelog": [
@@ -179,7 +179,7 @@
             "filename": "JumpingContest.py",
             "md5": "9f78c4bec42990c2504f2014914e7c24",
             "old_md5s": [],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/163ead5ffd2592f11c6ae2600f3f138baabfb018/mods/JumpingContest.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/163ead5ffd2592f11c6ae2600f3f138baabfb018/mods/JumpingContest.py"
         },
         "LandGrab": {
             "author": "joshville79",
@@ -192,7 +192,7 @@
             "md5": "95526447f0031c1fcb1e2488a50e0db9",
             "name": "Land Grab",
             "old_md5s": [],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/8f28b96d4ae9df51bbc8718a932f5d17938c5ce4/mods/LandGrab.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/8f28b96d4ae9df51bbc8718a932f5d17938c5ce4/mods/LandGrab.py"
         },
         "Paint": {
             "changelog": [
@@ -202,7 +202,23 @@
             "filename": "Paint.py",
             "md5": "12bc6efea06a65e10d571595e4824d8e",
             "old_md5s": [],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/4ea62c8752eca7006fd7f0ecfed50b600b10b84a/mods/Paint.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/4ea62c8752eca7006fd7f0ecfed50b600b10b84a/mods/Paint.py"
+        },
+        "Portal": {
+            "author": "The Great",
+            "category": "libraries",
+            "changelog": [
+                "Update Portal.py.Updated the Portal.py to not let two portal openings open at the same position. Uhm I did not totally change the random position finder code by @spdv123 but modified it a little bit.",
+                "added portal powerup"
+            ],
+            "commit_sha": "6a8b75c814bfc739d765ed2118ca77b3be7fb408",
+            "filename": "Portal.py",
+            "md5": "b05dc964c3d474cb575e2b9c5d24f7c5",
+            "name": "Portal powerup",
+            "old_md5s": [
+                "797075eaa35fd6dff131d9f0148ab7f1"
+            ],
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/6a8b75c814bfc739d765ed2118ca77b3be7fb408/mods/Portal.py"
         },
         "Protection": {
             "author": "joshville79",
@@ -218,7 +234,7 @@
             "old_md5s": [
                 "a8fee2500811ab273f0db546d7dceba8"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/f0771dc63724a5b92c95a52d6ee74d4cab35eaf0/mods/Protection.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/f0771dc63724a5b92c95a52d6ee74d4cab35eaf0/mods/Protection.py"
         },
         "SharksAndMinnows": {
             "changelog": [
@@ -228,7 +244,7 @@
             "filename": "SharksAndMinnows.py",
             "md5": "57ce4125981997c9367d0da439c56f55",
             "old_md5s": [],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/a3fe6d87b1e2cc1ed77cb44a0213b45eef4decb0/mods/SharksAndMinnows.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/a3fe6d87b1e2cc1ed77cb44a0213b45eef4decb0/mods/SharksAndMinnows.py"
         },
         "Siege": {
             "changelog": [
@@ -238,7 +254,7 @@
             "filename": "Siege.py",
             "md5": "7e4b7063579f43402df08a2d6afebf8a",
             "old_md5s": [],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/e1439dc9eca46d99470c09b59fdc8028c6f3c550/mods/Siege.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/e1439dc9eca46d99470c09b59fdc8028c6f3c550/mods/Siege.py"
         },
         "SimonSays": {
             "changelog": [
@@ -248,7 +264,7 @@
             "filename": "SimonSays.py",
             "md5": "3872e52eab13983507591b48ecf0a2b3",
             "old_md5s": [],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/025f68c78c76ec390cae327a1679a7da0d9e9b2b/mods/SimonSays.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/025f68c78c76ec390cae327a1679a7da0d9e9b2b/mods/SimonSays.py"
         },
         "SnoBallz": {
             "author": "joshville79",
@@ -264,7 +280,7 @@
             "old_md5s": [
                 "a05749ae364883a4f23d05d6788c9edb"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/a483c74a4b6a9c540ae58904bce5164dcfd5f4d4/mods/SnoBallz.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/a483c74a4b6a9c540ae58904bce5164dcfd5f4d4/mods/SnoBallz.py"
         },
         "SnowBallFight": {
             "author": "joshville79",
@@ -280,7 +296,7 @@
             "requires": [
                 "SnoBallz"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/f0771dc63724a5b92c95a52d6ee74d4cab35eaf0/mods/SnowBallFight.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/f0771dc63724a5b92c95a52d6ee74d4cab35eaf0/mods/SnowBallFight.py"
         },
         "WizardWar": {
             "author": "MattZ45986",
@@ -296,7 +312,7 @@
             "old_md5s": [
                 "46315134786af3bf46396918d663137d"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/33e6d75ee504241c4206c6bd3e986e52ffa1b0d7/mods/WizardWar.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/33e6d75ee504241c4206c6bd3e986e52ffa1b0d7/mods/WizardWar.py"
         },
         "ZombieHorde": {
             "author": "joshville79",
@@ -312,7 +328,7 @@
             "old_md5s": [
                 "716d5b347b42f18156e7cc85a4a175ee"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/f0771dc63724a5b92c95a52d6ee74d4cab35eaf0/mods/ZombieHorde.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/f0771dc63724a5b92c95a52d6ee74d4cab35eaf0/mods/ZombieHorde.py"
         },
         "airStrike": {
             "author": "SoKpl",
@@ -328,7 +344,7 @@
             "old_md5s": [
                 "23a8cefb018aefae51442b0554fa6e64"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/airStrike.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/airStrike.py"
         },
         "arms_race": {
             "author": "Mrmaxmeier",
@@ -347,7 +363,7 @@
                 "6ff1810f9d73a2b698d19216b36a4413",
                 "b725e48f91fa04197aea4cc1eefc1cbf"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/4044dd3363efc75421db36cef3f770d499811d47/mods/arms_race.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/4044dd3363efc75421db36cef3f770d499811d47/mods/arms_race.py"
         },
         "auto_reloader": {
             "author": "Mrmaxmeier",
@@ -370,7 +386,7 @@
             "supports": [
                 "config_editor"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/auto_reloader.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/auto_reloader.py"
         },
         "bomb_on_my_head": {
             "author": "Mrmaxmeier",
@@ -387,7 +403,7 @@
                 "c16286fe16dd5f2594e0836953fdfd68",
                 "6963c68439371d19fb52458e064dc930"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/bomb_on_my_head.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/bomb_on_my_head.py"
         },
         "bomberman": {
             "author": "Mrmaxmeier",
@@ -405,7 +421,7 @@
                 "1eafb570a01dcb157f737ff391424cdf"
             ],
             "tag": "experimental",
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/bomberman.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/bomberman.py"
         },
         "boxing": {
             "author": "TheMikirog",
@@ -422,7 +438,7 @@
                 "f60cfb347f93e1fa25f56cad057ab0d5",
                 "9485eac414e791f8eb06b7e93e0897e4"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/boxing.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/boxing.py"
         },
         "brainFreeze": {
             "author": "TheMikirog",
@@ -438,7 +454,7 @@
             "old_md5s": [
                 "3a9b5bbdb96deacdb4504a752b3618ee"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/brainFreeze.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/brainFreeze.py"
         },
         "bsBoxingOfTheHill": {
             "author": "joshville79",
@@ -451,7 +467,7 @@
             "md5": "dd81f8f2ccb148a6e88dd96d9e91f248",
             "name": "Boxing Of The Hill",
             "old_md5s": [],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/09be1d940c0db5f01587911930cc212982a7b020/mods/bsBoxingOfTheHill.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/09be1d940c0db5f01587911930cc212982a7b020/mods/bsBoxingOfTheHill.py"
         },
         "bsKillZone": {
             "author": "joshville79",
@@ -467,7 +483,7 @@
             "old_md5s": [
                 "1b5c3d11a408f1cb78a09f0758b6e980"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/a483c74a4b6a9c540ae58904bce5164dcfd5f4d4/mods/bsKillZone.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/a483c74a4b6a9c540ae58904bce5164dcfd5f4d4/mods/bsKillZone.py"
         },
         "catch_to_live": {
             "author": "Deva",
@@ -483,7 +499,7 @@
             "old_md5s": [
                 "d279afd2952852bafb99d04a63d92e60"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/352e1a82a46c431459842c2a302a31385aa1e872/mods/catch_to_live.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/352e1a82a46c431459842c2a302a31385aa1e872/mods/catch_to_live.py"
         },
         "fightOfFaith": {
             "author": "SoKpl",
@@ -499,7 +515,7 @@
             "old_md5s": [
                 "c7f6864575253c2d4f594cb08daf2769"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/fightOfFaith.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/fightOfFaith.py"
         },
         "frozenone": {
             "author": "Mrmaxmeier",
@@ -518,7 +534,7 @@
                 "0de2033b65a83260413a5a49607bb4c5",
                 "0a6a3366c7103712a7119e5efc4d4a15"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/frozenone.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/frozenone.py"
         },
         "iceDeathmatch": {
             "author": "SoKpl",
@@ -534,7 +550,7 @@
             "old_md5s": [
                 "9796fed0dd67c68a9e7eef95d4a51da1"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/iceDeathmatch.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/iceDeathmatch.py"
         },
         "magic_box": {
             "author": "Mrmaxmeier",
@@ -553,31 +569,31 @@
                 "3aac96b22db7dbc1e6cf2306d3454228",
                 "2340f5eee0252ac43a2e2fb96e73700e"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/magic_box.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/magic_box.py"
         },
         "modManager": {
             "author": "Mrmaxmeier",
             "category": "utilities",
             "changelog": [
-                "only generate uuid if the stat server is enabled",
-                "end smash game if team leaves completly"
+                "Serve the mod manager entirely from the bombsquad02420 forkPoint the mod manager, installer, index generator and README atbombsquad02420/BombSquad-Community-Mod-Manager instead of the archivedMrmaxmeier repo. Drop the dead rawgit.com mirrors, fetch mods fromraw.githubusercontent.com, and send a User-Agent on plain GET requestsso the raw.githack.com http fallback stops returning 403. The installerno longer writes an empty file when a download fails.",
+                "only generate uuid if the stat server is enabled"
             ],
-            "commit_sha": "3672c8fdd3a6a26aa7321e264f33a9e9a83232e8",
+            "commit_sha": "7bb48bc0a1a4fed4b95acb8ad6ded06f3abaaa52",
             "filename": "modManager.py",
-            "md5": "536b069e5b60bbeee052b03464991ce9",
+            "md5": "23a50403fef21069dae2d4e4fee534c7",
             "name": "Mod Manager (this thingy)",
             "old_md5s": [
+                "536b069e5b60bbeee052b03464991ce9",
                 "79fad6241b448f45be7a97b7c5aa3dd9",
                 "95137096a9c415267e4bfb4ee75c9b73",
                 "5c0fac4ce24659ae410a56faced81d25",
-                "72efc28be645667697116e6191ababfe",
-                "d0619dbfde6337d656482312f38d4574"
+                "72efc28be645667697116e6191ababfe"
             ],
             "requires": [
                 "ui_wrappers",
                 "settings_patcher"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/3672c8fdd3a6a26aa7321e264f33a9e9a83232e8/mods/modManager.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/7bb48bc0a1a4fed4b95acb8ad6ded06f3abaaa52/mods/modManager.py"
         },
         "puckDeathmatch": {
             "author": "Mrmaxmeier",
@@ -594,7 +610,7 @@
                 "8c4f61495cd1cb5221be02cfa8a58e45",
                 "034af0481765c2502dc184e5657dc435"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/puckDeathmatch.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/puckDeathmatch.py"
         },
         "quickGameButton": {
             "author": "Mrmaxmeier",
@@ -614,7 +630,7 @@
                 "9dbbc871cc8457bbced9420c11681c72",
                 "a9d97c3630a84baafc34e68968d86eb7"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/1d1bb169d32004924d6457a5f8ae4109cfece58c/mods/quickGameButton.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/1d1bb169d32004924d6457a5f8ae4109cfece58c/mods/quickGameButton.py"
         },
         "settings_patcher": {
             "author": "Mrmaxmeier",
@@ -633,7 +649,7 @@
                 "85217ec90f53b02dc3646030796f3dd5",
                 "474dbf37a8b1f36e532e0e936f9c0f4b"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/724587f96a6011b863903b389ef7babce70976a7/mods/settings_patcher.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/724587f96a6011b863903b389ef7babce70976a7/mods/settings_patcher.py"
         },
         "smash": {
             "author": "Mrmaxmeier",
@@ -652,7 +668,7 @@
                 "5916f2a3a15b623802e454dba70fb7f2",
                 "5dd773cb8407f92618b29da5134cd6d2"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/86072bfdadbd9205f897396825a8104fe2cbb630/mods/smash.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/86072bfdadbd9205f897396825a8104fe2cbb630/mods/smash.py"
         },
         "snake": {
             "author": "Mrmaxmeier",
@@ -669,27 +685,32 @@
                 "b7ed1f0b4f5ad311b2f35406ff07588f",
                 "76032fe956ce6b9805bcb2453a1decf5"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/snake.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/8d599cb0829b4f28d03db30e61ac618e8f1e0779/mods/snake.py"
         },
         "snowyPowerup": {
             "author": "joshville79",
             "category": "libraries",
             "changelog": [
-                "fix for bsFootball's powerup handling",
-                "Renabe bsPowerup to snowyPowerup, utilize monkey patching (#25)"
+                "Update snowyPowerup.pyRemoved visual notification of more than 3 portals being used.",
+                "Update snowyPowerup.pyUpdated snowyPowerup.py to not let two portals open at the same position, added max portal number limits and changed the texture of the portal Powerup."
             ],
-            "commit_sha": "017a13dbe85c78220175fb795bd81e1b5e66c0e9",
+            "commit_sha": "adeee4828ce8cfa67dd21412807fb18a2602afc5",
             "filename": "snowyPowerup.py",
-            "md5": "ce805e9d11cef2002d24b9dab6654595",
+            "md5": "122625116d4663759cabe43dd8c05f33",
             "name": "Modified bsPowerup.py",
             "old_md5s": [
+                "d784530c34868abaa8a8c7802e6343bb",
+                "b590a6dfb3bf279eb13c5acf91845dac",
+                "9f5556a146898b5caad986b1bce57700",
+                "ce805e9d11cef2002d24b9dab6654595",
                 "9a5abe159a10e15f5219dce1ac7e6176"
             ],
             "requires": [
                 "BuddyBunny",
-                "SnoBallz"
+                "SnoBallz",
+                "Portal"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/017a13dbe85c78220175fb795bd81e1b5e66c0e9/mods/snowyPowerup.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/adeee4828ce8cfa67dd21412807fb18a2602afc5/mods/snowyPowerup.py"
         },
         "surviveCurse": {
             "author": "joshville79",
@@ -702,7 +723,7 @@
             "md5": "29e21b16f3d7e4003532f0155a175ac3",
             "name": "Survive the Curse!",
             "old_md5s": [],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/22846a813dc5a550a49a74307d86c3601d58cf4e/mods/surviveCurse.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/22846a813dc5a550a49a74307d86c3601d58cf4e/mods/surviveCurse.py"
         },
         "ui_wrappers": {
             "author": "Mrmaxmeier",
@@ -722,7 +743,7 @@
                 "7df3a7c699903f8a0c8b8d6c847b0840",
                 "8d1e6e55ae9a953de95278d5317c3476"
             ],
-            "url": "https://cdn.rawgit.com/Mrmaxmeier/BombSquad-Community-Mod-Manager/f2c1140ba899c0a5dbbe683fd767343449258942/mods/ui_wrappers.py"
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/f2c1140ba899c0a5dbbe683fd767343449258942/mods/ui_wrappers.py"
         }
     },
     "version": 1.1
