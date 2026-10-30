@@ -6,7 +6,8 @@ import urllib2
 import weakref
 import os
 import os.path
-import zipfile
+import struct
+import zlib
 
 import httplib
 SUPPORTS_HTTPS = hasattr(httplib, 'HTTPS')
@@ -33,18 +34,59 @@ def mod_url(data):
         yield "http://raw.githack.com/{}/{}/mods/{}".format(USER_REPO, commit_hexsha, filename)
 
 
+def _zip_entries(f):
+    # minimal zip reader: some builds ship without the zipfile module, but zlib and struct are built in
+    f.seek(0, 2)
+    size = f.tell()
+    f.seek(max(0, size - 65557))
+    tail = f.read()
+    end = tail.rfind(b"PK\x05\x06")
+    if end < 0:
+        return {}
+    count, dirSize, dirOffset = struct.unpack("<HII", tail[end + 10:end + 20])
+    f.seek(dirOffset)
+    directory = f.read(dirSize)
+    entries = {}
+    pos = 0
+    for _ in range(count):
+        method, compSize, nameLen, extraLen, commentLen, localOffset = \
+            struct.unpack("<6xH8xI4xHHH8xI", directory[pos + 4:pos + 46])
+        name = directory[pos + 46:pos + 46 + nameLen].decode("utf-8")
+        entries[name] = (method, compSize, localOffset)
+        pos += 46 + nameLen + extraLen + commentLen
+    return entries
+
+
+def _zip_read(f, entry):
+    method, compSize, localOffset = entry
+    f.seek(localOffset)
+    nameLen, extraLen = struct.unpack("<HH", f.read(30)[26:30])
+    f.seek(localOffset + 30 + nameLen + extraLen)
+    data = f.read(compSize)
+    if method == 8:
+        return zlib.decompress(data, -15)
+    if method == 0:
+        return data
+    raise IOError("unsupported zip compression method %d" % method)
+
+
 def read_local_zip(path):
     # a GitHub "Download ZIP" of this repo in the mods folder lets builds without ssl install offline
-    for name in sorted(os.listdir(modPath)):
+    modsDir = modPath
+    for name in sorted(os.listdir(modsDir)):
         if not name.endswith(".zip"):
             continue
         try:
-            with zipfile.ZipFile(modPath + name) as z:
-                for entry in z.namelist():
+            with open(os.path.join(modsDir, name), "rb") as f:
+                entries = _zip_entries(f)
+                for entry in entries:
                     # github wraps everything in a "<repo>-<branch>/" folder
                     if entry.count("/") == 1 and entry.endswith("/index.json"):
-                        return z.read(entry[:-len("index.json")] + path)
-        except (zipfile.BadZipfile, KeyError, IOError):
+                        wanted = entry[:-len("index.json")] + path
+                        if wanted in entries:
+                            return _zip_read(f, entries[wanted])
+                        return None
+        except (IOError, struct.error, zlib.error, UnicodeDecodeError):
             continue
     return None
 
