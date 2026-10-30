@@ -10,6 +10,7 @@ import random
 import time
 import threading
 import weakref
+import zipfile
 from md5 import md5
 from bsUI import gSmallUI, gMedUI, gHeadingColor, uiGlobals, ConfirmWindow, StoreWindow, MainMenuWindow, Window
 from functools import partial
@@ -83,6 +84,25 @@ def mod_url(data):
         yield "http://raw.githack.com/{}/{}/mods/{}".format(USER_REPO, commit_hexsha, filename)
 
 
+def read_local_zip(path):
+    """Read a repo file (e.g. "index.json") from a GitHub "Download ZIP" of this repo in the mods folder.
+
+    Lets builds without ssl install mods without any network access. Returns None if there is no such zip."""
+    modsDir = bs.getEnvironment()['userScriptsDirectory']
+    for name in sorted(os.listdir(modsDir)):
+        if not name.endswith(".zip"):
+            continue
+        try:
+            with zipfile.ZipFile(os.path.join(modsDir, name)) as z:
+                for entry in z.namelist():
+                    # github wraps everything in a "<repo>-<branch>/" folder
+                    if entry.count("/") == 1 and entry.endswith("/index.json"):
+                        return z.read(entry[:-len("index.json")] + path)
+        except (zipfile.BadZipfile, KeyError, IOError):
+            continue
+    return None
+
+
 def try_fetch_cb(generator, callback, **kwargs):
     def f(data, status_code):
         if data:
@@ -130,6 +150,10 @@ def get_cached(url, callback, force_fresh=False, fallback_to_outdated=True):
 
 
 def get_index(callback, branch=None, **kwargs):
+    data = read_local_zip("index.json")
+    if data:
+        callback(json.loads(data), None)
+        return
     try_fetch_cb(index_url(branch), callback, **kwargs)
 
 
@@ -184,6 +208,10 @@ def submit_download(mod):
 
 
 def fetch_mod(data, callback):
+    local = read_local_zip("mods/" + data["filename"])
+    if local:
+        callback(local, None)
+        return
     generator = mod_url(data)
 
     def f(data, status_code):

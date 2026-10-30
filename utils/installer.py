@@ -6,6 +6,7 @@ import urllib2
 import weakref
 import os
 import os.path
+import zipfile
 
 import httplib
 SUPPORTS_HTTPS = hasattr(httplib, 'HTTPS')
@@ -30,6 +31,22 @@ def mod_url(data):
         if SUPPORTS_HTTPS:
             yield "https://raw.githubusercontent.com/{}/{}/mods/{}".format(USER_REPO, commit_hexsha, filename)
         yield "http://raw.githack.com/{}/{}/mods/{}".format(USER_REPO, commit_hexsha, filename)
+
+
+def read_local_zip(path):
+    # a GitHub "Download ZIP" of this repo in the mods folder lets builds without ssl install offline
+    for name in sorted(os.listdir(modPath)):
+        if not name.endswith(".zip"):
+            continue
+        try:
+            with zipfile.ZipFile(modPath + name) as z:
+                for entry in z.namelist():
+                    # github wraps everything in a "<repo>-<branch>/" folder
+                    if entry.count("/") == 1 and entry.endswith("/index.json"):
+                        return z.read(entry[:-len("index.json")] + path)
+        except (zipfile.BadZipfile, KeyError, IOError):
+            continue
+    return None
 
 
 def try_fetch_cb(generator, callback):
@@ -110,7 +127,11 @@ def install(data, mod):
         installed.append(mod)
         check_finished()
 
-    try_fetch_cb(mod_url(data[mod]), f)
+    local = read_local_zip("mods/" + filename)
+    if local:
+        f(local)
+    else:
+        try_fetch_cb(mod_url(data[mod]), f)
 
 
 def onIndex(data):
@@ -120,4 +141,9 @@ def onIndex(data):
     data = json.loads(data)
     install(data["mods"], ENTRY_MOD)
 
-try_fetch_cb(index_url(), onIndex)
+local_index = read_local_zip("index.json")
+if local_index:
+    bs.screenMessage("installing from local zip")
+    onIndex(local_index)
+else:
+    try_fetch_cb(index_url(), onIndex)
