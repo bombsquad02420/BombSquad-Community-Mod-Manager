@@ -744,6 +744,19 @@
                 "8d1e6e55ae9a953de95278d5317c3476"
             ],
             "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/f2c1140ba899c0a5dbbe683fd767343449258942/mods/ui_wrappers.py"
+        },
+        "unlock_all": {
+            "author": "Claude",
+            "category": "utilities",
+            "changelog": [
+                "Add unlock_all mod for 1.4 buildsEvery store unlock (characters, maps, extra game types, pro) goesthrough bsInternal._getPurchased, and custom playlists and pro gameoptions through bsUtils._haveProOptions. Both are looked up by moduleattribute at each call, so overriding them unlocks everything on thisclient. Server-side checks such as tickets and tournaments are notaffected."
+            ],
+            "commit_sha": "d291912be9ee417eeb25aefa88225c4eefbce716",
+            "filename": "unlock_all.py",
+            "md5": "b425cb8ecbb8bc056f3ea35eb09de86e",
+            "name": "Unlock All",
+            "old_md5s": [],
+            "url": "https://raw.githubusercontent.com/bombsquad02420/BombSquad-Community-Mod-Manager/d291912be9ee417eeb25aefa88225c4eefbce716/mods/unlock_all.py"
         }
     },
     "version": 1.1
